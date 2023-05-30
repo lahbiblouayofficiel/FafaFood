@@ -1,0 +1,122 @@
+/* Add a black background color to the top navigation */
+
+nav {
+  display: flex;
+  background-color: transparent;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 0%;
+}
+.logo{
+  height: 50px;
+}
+.topnav {
+  display: flex;
+
+    overflow: hidden;
+    border-radius: 25%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: transparent;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f9e434;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#f9e434;
+  color: white;
+}
+
+.mb-3 span {
+  color: #21DAFF;
+}
+.btn-primary {background-color: #21DAFF;}
+header {
+  background-image: url("banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.p-5 {
+  background-color: transparent !important;
+}
+.specialoffer {
+  text-align: center;
+}
+.specialoffer h4 span { color: #f13a87;}
+.carddiv{
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.card{
+  padding: 10px;
+}
+
+#about-section {
+position: relative;}
+
+.blockabout {
+  background: white;
+}
+
+.blockabout-inner {
+  padding: 30px;
+}
+
+.sosmed-horizontal a i {
+  border: 1px solid #070707;
+  border-radius: 50%;
+  color: #070707;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin: auto 3px;
+  font-size: 15px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.rey-btn {
+  border: 2px solid #070707;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+.potoaboutwrap{
+  text-align: center;
+}
+.potoaboutwrap img{  
+    height: 426px;
+  border-radius: 141px;
+padding: 20px;}
+
+.title-big h4 span {
+ 
+  color: #f13a87;
+}
+
+.contact {margin-left: 250px;
+margin-right: 250px;}
